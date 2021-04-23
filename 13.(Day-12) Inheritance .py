@@ -40,4 +40,4 @@ numScores = int(input()) # not needed for Python
 scores = list( map(int, input().split()) )
 s = Student(firstName, lastName, idNum, scores)
 s.printPerson()
-print("Grade:", s.calculate())
+print("Grade:", s.calculate()
